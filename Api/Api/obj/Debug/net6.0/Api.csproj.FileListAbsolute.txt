@@ -50,3 +50,4 @@ C:\Users\ITPC\Desktop\Full\Api\Api\obj\Debug\net6.0\refint\Api.dll
 C:\Users\ITPC\Desktop\Full\Api\Api\obj\Debug\net6.0\Api.pdb
 C:\Users\ITPC\Desktop\Full\Api\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
 C:\Users\ITPC\Desktop\Full\Api\Api\obj\Debug\net6.0\ref\Api.dll
+C:\Users\ITPC\Desktop\Full\Api\Api\bin\Debug\net6.0\Api.staticwebassets.runtime.json

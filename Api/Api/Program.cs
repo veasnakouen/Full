@@ -22,12 +22,14 @@ var app = builder.Build();
 
 
 // Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();//added code
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 //added code
 else
 {
@@ -35,10 +37,11 @@ else
 }
 
 
-app.UseHttpsRedirection();
+app.UseHttpsRedirection();//add the middleware for the redirect from http|https
 
 
 app.UseStaticFiles();
+
 
 app.UseForwardedHeaders(new ForwardedHeadersOptions
 {
@@ -48,7 +51,7 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 
 app.UseCors("CorsPolicy");
 
-app.UseAuthorization();
+app.UseAuthorization();//add authorization middleware to specified IApplicationBuilder to enable authorization capabilities
 
 app.MapControllers();
 
